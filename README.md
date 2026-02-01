@@ -18,6 +18,7 @@ Inverse design in nanophotonics often relies on computationally intensive iterat
 # \# Methodology
 
 1\. Data Generation
+
  \- Physics Engine: Open-source Finite-Difference Time-Domain (FDTD) simulations (Meep).
  
  \- Dataset: 10,000 unique 2D absorbing silicon nanostructures.
@@ -26,6 +27,7 @@ Inverse design in nanophotonics often relies on computationally intensive iterat
  
 
  2\. ML Architectures Evaluated
+ 
  \- ResNet50: Pre-trained on ImageNet and fine-tuned for optical spectra.
  
  \- Standard DNN: Fully connected layers for both forward and inverse mappings.
@@ -35,6 +37,12 @@ Inverse design in nanophotonics often relies on computationally intensive iterat
  \- Hybrid PCA+DNN: Dimensionality reduction via Principal Component Analysis (PCA) combined with a DNN.
  
  \- Tandem Networks: Forward-Inverse coupled architecture to solve the one-to-many mapping problem.
+
+ <p align="center">
+  <img src="docs/figures/Schematic representation of forward networks.pdf" width="750" alt="ML Architecture">
+  <br>
+  <em>Figure 1: Schematic representation of forward networks.</em>
+</p>
 
 # \# Key Results
 
