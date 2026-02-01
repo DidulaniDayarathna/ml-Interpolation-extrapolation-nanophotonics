@@ -15,7 +15,7 @@ Inverse design in nanophotonics often relies on computationally intensive iterat
 
 \- Transfer Learning: Evaluate the efficacy of pre-trained models (e.g., ResNet50) in predicting electromagnetic responses.
  
-#\# Methodology
+# \# Methodology
 
 1\. Data Generation
  \- Physics Engine: Open-source Finite-Difference Time-Domain (FDTD) simulations (Meep).
