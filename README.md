@@ -1,22 +1,17 @@
 # \# Machine Learning in Interpolation and Extrapolation for Nanophotonic Inverse Design
 
-
-
 This repository contains the conceptual framework and methodology for the research paper: "Machine Learning in Interpolation and Extrapolation for Nanophotonic Inverse Design," published in ACS Omega.
 
-# 
 
-# \## 📌 Overview
+# \# Overview
 
-# Inverse design in nanophotonics often relies on computationally intensive iterative solvers (e.g., adjoint optimization). This project explores the use of Artificial Neural Networks (ANNs) as high-speed surrogates. A central contribution of this work is the rigorous evaluation of how different ML architectures perform when interpolating (predicting within the training distribution) versus extrapolating (predicting for structures or spectra unseen during training).
+Inverse design in nanophotonics often relies on computationally intensive iterative solvers (e.g., adjoint optimization). This project explores the use of Artificial Neural Networks (ANNs) as high-speed surrogates. A central contribution of this work is the rigorous evaluation of how different ML architectures perform when interpolating (predicting within the training distribution) versus extrapolating (predicting for structures or spectra unseen during training).
 
 
 
 # ---
 
-# 
-
-# \## 🎯 Research Objective
+# \# Project Objective
 
 # 
 
