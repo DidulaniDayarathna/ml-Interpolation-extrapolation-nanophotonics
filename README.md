@@ -38,13 +38,6 @@ Inverse design in nanophotonics often relies on computationally intensive iterat
  
  \- Tandem Networks: Forward-Inverse coupled architecture to solve the one-to-many mapping problem.
 
- <p align="center">
-  <img src="docs/figures/Schematic representation of forward networks.pdf" width="750" alt="ML Architecture">
-  <br>
-  <em>Figure 1: Schematic representation of forward networks.</em>
-</p>
-
-![Schematic representation of forward networks](docs/figures/Schematic representation of forward networks.pdf.png)
 
 # \# Key Results
 
