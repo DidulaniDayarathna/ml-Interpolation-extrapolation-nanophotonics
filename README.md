@@ -44,6 +44,8 @@ Inverse design in nanophotonics often relies on computationally intensive iterat
   <em>Figure 1: Schematic representation of forward networks.</em>
 </p>
 
+![Schematic representation of forward networks](docs/figures/Schematic representation of forward networks.pdf.png)
+
 # \# Key Results
 
  \- DNN Superiority in Extrapolation: While CNNs and ResNet50 excel at interpolation, standard DNNs demonstrate significantly better stability and lower error when extrapolating to unseen geometric regimes.
