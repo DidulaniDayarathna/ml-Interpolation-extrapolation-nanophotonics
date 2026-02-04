@@ -98,7 +98,25 @@ Representative figures from the study are included in the **`figures/`** , **` d
 
 
 ```markdown
-![TOC](docs/diagrams/TOC.png)
+docs/diagrams
+├── TOC.png
+```
+
+```markdown
+docs/figures/
+├── Interpolation and Extrapolation structures.pdf
+├── Schematic representation of forward networks.pdf
+├── Schematic representation of inverse networks.pdf
+```
+
+```markdown
+results/
+├── Forward network predictions.pdf
+├── Generated structures from inverse networks.pdf
+├── MSE between the spectra.pdf
+├── MSE for the validation set of interpolative structures.pdf
+├── Training time and training loss comparison.pdf
+├── Validation loss variation.pdf
 ```
 
 ---
