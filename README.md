@@ -10,14 +10,14 @@ The project investigates how different machine learning (ML) architectures perfo
 
 ## Overview
 
-Inverse design in nanophotonics traditionally relies on computationally intensive iterative solvers such as adjoint-based optimization. While highly accurate, these methods are often slow and difficult to scale.
+Inverse design in nanophotonics traditionally relies on computationally intensive iterative solvers such as adjoint based optimization. While highly accurate, these methods are often slow and difficult to scale.
 
 This work explores **Artificial Neural Networks (ANNs)** as high-speed surrogate models capable of mapping between nanophotonic structures and their optical responses. A central contribution of this study is a **systematic and rigorous evaluation of model generalization**, explicitly distinguishing between:
 
 * **Interpolation**: predictions within the training data distribution
 * **Extrapolation**: predictions for geometries or spectral responses not seen during training
 
-Understanding this distinction is critical for deploying ML models in real-world nanophotonic design workflows.
+Understanding this distinction is critical for deploying ML models in real world nanophotonic design workflows.
 
 ---
 
@@ -38,29 +38,29 @@ Understanding this distinction is critical for deploying ML models in real-world
 
 ### 1. Data Generation
 
-* **Physics Engine**: Open-source Finite-Difference Time-Domain (FDTD) simulations using **Meep**
+* **Physics Engine**: Open source Finite Difference Time Domain (FDTD) simulations using **Meep**
 * **Dataset Size**: 10,000 unique 2D absorbing silicon nanostructures
 * **Representation**:
 
-  * Structures encoded as (40 \times 40) binary matrices indicating the presence or absence of silicon
+  * Structures encoded as (40 × 40) binary matrices indicating the presence or absence of silicon
   * Spatial smoothing applied to approximate realistic fabrication constraints
 
 ### 2. Machine Learning Architectures Evaluated
 
 * **ResNet50**
-  Pre-trained on ImageNet and fine-tuned for optical spectral prediction
+  Pre-trained on ImageNet and fine tuned for optical spectral prediction
 
 * **Standard DNN**
   Fully connected neural networks used for both forward (structure → spectrum) and inverse (spectrum → structure) mappings
 
 * **CNN**
-  Designed to exploit spatial correlations in the (40 \times 40) geometry grid
+  Designed to exploit spatial correlations in the (40 × 40) geometry grid
 
 * **Hybrid PCA + DNN**
   Principal Component Analysis (PCA) for dimensionality reduction followed by a DNN
 
 * **Tandem Networks**
-  Forward–inverse coupled architectures designed to address the one-to-many mapping problem inherent in inverse design
+  Forward inverse coupled architectures designed to address the one to many mapping problem inherent in inverse design
 
 ---
 
@@ -70,13 +70,13 @@ Understanding this distinction is critical for deploying ML models in real-world
   While CNNs and ResNet50 models perform strongly under interpolation, standard DNNs exhibit superior stability and lower prediction error when extrapolating to unseen geometric regimes.
 
 * **Hybrid Model Trade-offs**
-  PCA–DNN hybrids improve training efficiency and interpolation accuracy but often limit extrapolative capability.
+  PCA DNN hybrids improve training efficiency and interpolation accuracy but often limit extrapolative capability.
 
 * **Generative Inverse Design**
   Inverse models successfully generated nanostructures with target spectral responses well outside the training data bounds.
 
 * **Computational Efficiency**
-  ML-based predictions are obtained orders of magnitude faster than full-wave electromagnetic simulations.
+  ML-based predictions are obtained orders of magnitude faster than full wave electromagnetic simulations.
 
 ---
 
@@ -150,9 +150,8 @@ If you find this work useful in your research, please cite:
 
 ---
 
-## Code & Data Access
+## Data Access
 
-* **Code**: This repository provides the core logic for model architectures, training workflows, and evaluation metrics.
 * **Dataset**: The full FDTD simulation dataset is available upon reasonable request.
 * **Usage**: Please contact the author for inquiries regarding commercial use or collaborative research.
 
