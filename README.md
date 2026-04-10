@@ -6,8 +6,6 @@ This repository contains the conceptual framework, methodology, and reference im
 
 The project investigates how different machine learning (ML) architectures perform when used as fast surrogate models for forward and inverse nanophotonic design, with a particular focus on the fundamental distinction between **interpolation** and **extrapolation**.
 
-![Alt text](docs/diagrams/TOC.png)
-
 ---
 
 ## Overview
@@ -18,6 +16,8 @@ This work explores **Artificial Neural Networks (ANNs)** as high-speed surrogate
 
 * **Interpolation**: predictions within the training data distribution
 * **Extrapolation**: predictions for geometries or spectral responses not seen during training
+
+![Alt text](docs/diagrams/TOC.png)
 
 Understanding this distinction is critical for deploying ML models in real world nanophotonic design workflows.
 
