@@ -6,6 +6,8 @@ This repository contains the conceptual framework, methodology, and reference im
 
 The project investigates how different machine learning (ML) architectures perform when used as fast surrogate models for forward and inverse nanophotonic design, with a particular focus on the fundamental distinction between **interpolation** and **extrapolation**.
 
+![Alt text](docs/diagrams/TOC.png)
+
 ---
 
 ## Overview
