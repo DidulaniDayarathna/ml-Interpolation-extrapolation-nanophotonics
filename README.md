@@ -17,9 +17,9 @@ This work explores **Artificial Neural Networks (ANNs)** as high-speed surrogate
 * **Interpolation**: predictions within the training data distribution
 * **Extrapolation**: predictions for geometries or spectral responses not seen during training
 
-![Alt text](docs/diagrams/TOC.png)
-
 Understanding this distinction is critical for deploying ML models in real world nanophotonic design workflows.
+
+![Alt text](docs/diagrams/TOC.png)
 
 ---
 
